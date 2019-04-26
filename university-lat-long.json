@@ -1,0 +1,2052 @@
+[
+	{
+		"institutionName": "Abertay University",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-2.973917,
+				56.463307
+			]
+		}
+	},
+	{
+		"institutionName": "Anglia Ruskin University",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				0.134808,
+				52.203825
+			]
+		}
+	},
+	{
+		"institutionName": "Archaeology Data Service",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-1.086624,
+				53.962364
+			]
+		}
+	},
+	{
+		"institutionName": "Arts and Humanities Research Council",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-1.785952,
+				51.566838
+			]
+		}
+	},
+	{
+		"institutionName": "Aston University",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-1.888803,
+				52.487018
+			]
+		}
+	},
+	{
+		"institutionName": "Arts University Bournemouth",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-1.897709,
+				50.741793
+			]
+		}
+	},
+	{
+		"institutionName": "Babraham Institute",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				0.205602,
+				52.132561
+			]
+		}
+	},
+	{
+		"institutionName": "Aberystwyth University",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-4.063066,
+				52.415524
+			]
+		}
+	},
+	{
+		"institutionName": "Bangor University",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-4.129498,
+				53.229219
+			]
+		}
+	},
+	{
+		"institutionName": "Bath Spa University",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-2.437402,
+				51.378743
+			]
+		}
+	},
+	{
+		"institutionName": "Biotechnology and Biological Sciences Research Council",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-1.785952,
+				51.566838
+			]
+		}
+	},
+	{
+		"institutionName": "Birkbeck, University of London",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-0.130204,
+				51.521951
+			]
+		}
+	},
+	{
+		"institutionName": "Bishop Grosseteste University",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-0.535715,
+				53.244013
+			]
+		}
+	},
+	{
+		"institutionName": "Birmingham City University",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-1.897287,
+				52.517271
+			]
+		}
+	},
+	{
+		"institutionName": "British Library Business & IP Centre",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-0.127014,
+				51.529985
+			]
+		}
+	},
+	{
+		"institutionName": "Bournemouth University",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-1.897168,
+				50.742979
+			]
+		}
+	},
+	{
+		"institutionName": "Buckinghamshire New University, Uxbridge Campus",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-0.483215,
+				51.549977
+			]
+		}
+	},
+	{
+		"institutionName": "Brunel University London",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-0.472855,
+				51.532848
+			]
+		}
+	},
+	{
+		"institutionName": "Buckinghamshire New University, Wycombe Campus",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-0.752537,
+				51.627853
+			]
+		}
+	},
+	{
+		"institutionName": "Canterbury Christ Church University",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				1.089364,
+				51.279643
+			]
+		}
+	},
+	{
+		"institutionName": "Cardiff Metropolitan University",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-3.165881,
+				51.482708
+			]
+		}
+	},
+	{
+		"institutionName": "Cardiff University",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-3.178864,
+				51.486627
+			]
+		}
+	},
+	{
+		"institutionName": "Catapult UK",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-1.789463,
+				51.565685
+			]
+		}
+	},
+	{
+		"institutionName": "Cell Therapy Catapult",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-0.08899,
+				51.504642
+			]
+		}
+	},
+	{
+		"institutionName": "City University London",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-0.102322,
+				51.52779
+			]
+		}
+	},
+	{
+		"institutionName": "Courtauld Institute of Art",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-0.116949,
+				51.510742
+			]
+		}
+	},
+	{
+		"institutionName": "Coventry University",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-1.505722,
+				52.407999
+			]
+		}
+	},
+	{
+		"institutionName": "De Montfort University",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-1.138035,
+				52.629467
+			]
+		}
+	},
+	{
+		"institutionName": "Digital Catapult",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-0.127411,
+				51.528391
+			]
+		}
+	},
+	{
+		"institutionName": "Cranfield University",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-0.629225,
+				52.074389
+			]
+		}
+	},
+	{
+		"institutionName": "Durham University",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-1.571858,
+				54.768139
+			]
+		}
+	},
+	{
+		"institutionName": "Economic and Social Research Council",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-1.785952,
+				51.566838
+			]
+		}
+	},
+	{
+		"institutionName": "Durham University, Queens Campus",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-1.298585,
+				54.563575
+			]
+		}
+	},
+	{
+		"institutionName": "Creative Industries KTN",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-0.106323,
+				51.535588
+			]
+		}
+	},
+	{
+		"institutionName": "Edge Hill University",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-2.873374,
+				53.55989
+			]
+		}
+	},
+	{
+		"institutionName": "Edinburgh Centre for Carbon Innovation",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-3.184424,
+				55.948969
+			]
+		}
+	},
+	{
+		"institutionName": "Edinburgh Napier University",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-3.228075,
+				55.923121
+			]
+		}
+	},
+	{
+		"institutionName": "Biosciences KTN",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-0.32436,
+				51.062242
+			]
+		}
+	},
+	{
+		"institutionName": "Edinburgh Research and Innovation",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-3.183499,
+				55.947531
+			]
+		}
+	},
+	{
+		"institutionName": "Engineering and Physical Sciences Research Council",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-1.785952,
+				51.566838
+			]
+		}
+	},
+	{
+		"institutionName": "EPSRC Centre for Innovative Manufacturing in Large-Area Electronics",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				0.090959,
+				52.210014
+			]
+		}
+	},
+	{
+		"institutionName": "Enscite",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-1.481675,
+				52.927945
+			]
+		}
+	},
+	{
+		"institutionName": "EPSRC Centre for Innovative Manufacturing in Liquid Metal Engineering",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-0.472855,
+				51.532848
+			]
+		}
+	},
+	{
+		"institutionName": "EPSRC Centre for Innovative Manufacturing in Through-Life Engineering Services",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-0.628755,
+				52.073918
+			]
+		}
+	},
+	{
+		"institutionName": "European Molecular Biology Laboratory",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				0.186415,
+				52.080084
+			]
+		}
+	},
+	{
+		"institutionName": "Falmouth University",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-5.12362,
+				50.171084
+			]
+		}
+	},
+	{
+		"institutionName": "Future Railway",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-0.105333,
+				51.532011
+			]
+		}
+	},
+	{
+		"institutionName": "Future Cities Catapult",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-0.084907,
+				51.499944
+			]
+		}
+	},
+	{
+		"institutionName": "Glasgow Caledonian University",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-4.251415,
+				55.86601
+			]
+		}
+	},
+	{
+		"institutionName": "Glyndŵr University",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-3.00564,
+				53.052963
+			]
+		}
+	},
+	{
+		"institutionName": "Glasgow School of Art",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-4.263405,
+				55.865958
+			]
+		}
+	},
+	{
+		"institutionName": "Goldsmiths, University of London",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-0.035401,
+				51.474144
+			]
+		}
+	},
+	{
+		"institutionName": "Guildhall School of Music and Drama",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-0.092432,
+				51.5195
+			]
+		}
+	},
+	{
+		"institutionName": "EPSRC Centre for Innovative Manufacturing in Continuous Manufacturing and Crystallisation",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-4.243977,
+				55.860526
+			]
+		}
+	},
+	{
+		"institutionName": "Harper Adams University",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-2.425381,
+				52.780004
+			]
+		}
+	},
+	{
+		"institutionName": "Heriot Watt University",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-3.320699,
+				55.909403
+			]
+		}
+	},
+	{
+		"institutionName": "Heythrop College",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-0.190908,
+				51.499883
+			]
+		}
+	},
+	{
+		"institutionName": "Higher Education Funding Council for England",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-2.545556,
+				51.49991
+			]
+		}
+	},
+	{
+		"institutionName": "Imperial College London",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-0.178219,
+				51.500505
+			]
+		}
+	},
+	{
+		"institutionName": "Innovate UK",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-1.789473,
+				51.565689
+			]
+		}
+	},
+	{
+		"institutionName": "Imperial Innovations",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-0.173704,
+				51.499122
+			]
+		}
+	},
+	{
+		"institutionName": "Institute for Advanced Manufacturing and Engineering",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-1.50263,
+				52.435865
+			]
+		}
+	},
+	{
+		"institutionName": "Institute for Fiscal Studies",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-0.131447,
+				51.520308
+			]
+		}
+	},
+	{
+		"institutionName": "Institute of Cancer Research",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-0.194585,
+				51.34614
+			]
+		}
+	},
+	{
+		"institutionName": "Institute of Food Research",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				1.224533,
+				52.623819
+			]
+		}
+	},
+	{
+		"institutionName": "Institute of Zoology",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-0.155732,
+				51.535718
+			]
+		}
+	},
+	{
+		"institutionName": "Interface Online",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-3.186763,
+				55.945864
+			]
+		}
+	},
+	{
+		"institutionName": "Knowledge Transfer Network",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-0.1063234,
+				51.535588
+			]
+		}
+	},
+	{
+		"institutionName": "John Innes Centre",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				1.221381,
+				52.622271
+			]
+		}
+	},
+	{
+		"institutionName": "KTP Salford",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-2.270666,
+				53.483541
+			]
+		}
+	},
+	{
+		"institutionName": "KTP West Scotland",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-4.241662,
+				55.860856
+			]
+		}
+	},
+	{
+		"institutionName": "Leeds Metropolitan University",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-1.547429,
+				53.803643
+			]
+		}
+	},
+	{
+		"institutionName": "Leeds Trinity University",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-1.648096,
+				53.848558
+			]
+		}
+	},
+	{
+		"institutionName": "Liverpool Hope University",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-2.89107,
+				53.391358
+			]
+		}
+	},
+	{
+		"institutionName": "Liverpool John Moores University",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-2.972828,
+				53.403393
+			]
+		}
+	},
+	{
+		"institutionName": "Kingston University",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-0.303575,
+				51.403603
+			]
+		}
+	},
+	{
+		"institutionName": "London Business School",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-0.161378,
+				51.526581
+			]
+		}
+	},
+	{
+		"institutionName": "Liverpool School of Tropical Medicine",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-2.969125,
+				53.408601
+			]
+		}
+	},
+	{
+		"institutionName": "London School of Economics",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-0.116732,
+				51.513966
+			]
+		}
+	},
+	{
+		"institutionName": "London Metropolitan University",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-0.110236,
+				51.551819
+			]
+		}
+	},
+	{
+		"institutionName": "London School of Hygiene & Tropical Medicine",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-0.127758,
+				51.507351
+			]
+		}
+	},
+	{
+		"institutionName": "King's College London",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-0.116938,
+				51.510732
+			]
+		}
+	},
+	{
+		"institutionName": "London South Bank University",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-0.101655,
+				51.498409
+			]
+		}
+	},
+	{
+		"institutionName": "Manchester Metropolitan University",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-2.240979,
+				53.470305
+			]
+		}
+	},
+	{
+		"institutionName": "Loughborough University",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-1.233313,
+				52.764141
+			]
+		}
+	},
+	{
+		"institutionName": "Manchester University Graphene Institute",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-2.233238,
+				53.467933
+			]
+		}
+	},
+	{
+		"institutionName": "National Institute of Agricultural Botany",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				0.096304,
+				52.221897
+			]
+		}
+	},
+	{
+		"institutionName": "Middlesex University",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-0.228441,
+				51.589714
+			]
+		}
+	},
+	{
+		"institutionName": "National Oceanography Centre, Liverpool",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-2.968902,
+				53.407594
+			]
+		}
+	},
+	{
+		"institutionName": "National Oceanography Centre, Southampton",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-1.394587,
+				50.892674
+			]
+		}
+	},
+	{
+		"institutionName": "Medical Research Council",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-0.119728,
+				51.513664
+			]
+		}
+	},
+	{
+		"institutionName": "Newcastle University",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-1.615713,
+				54.98032
+			]
+		}
+	},
+	{
+		"institutionName": "Newman University",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-1.995028,
+				52.434122
+			]
+		}
+	},
+	{
+		"institutionName": "National Centre for Universities & Business",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-0.128008,
+				51.526844
+			]
+		}
+	},
+	{
+		"institutionName": "Norwich University of the Arts",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				1.296577,
+				52.630289
+			]
+		}
+	},
+	{
+		"institutionName": "Natural Environment Research Council",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-1.785952,
+				51.566838
+			]
+		}
+	},
+	{
+		"institutionName": "Nottingham Trent University",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-1.152004,
+				52.956363
+			]
+		}
+	},
+	{
+		"institutionName": "Offshore Renewable Energy Catapult, Blyth",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-1.508176,
+				55.130506
+			]
+		}
+	},
+	{
+		"institutionName": "Offshore Renewable Energy Catapult, Glasgow",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-4.243977,
+				55.860526
+			]
+		}
+	},
+	{
+		"institutionName": "Plymouth College of Art",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-4.13741234297579,
+				50.3734170189978
+			]
+		}
+	},
+	{
+		"institutionName": "Plymouth University",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-4.138364,
+				50.375201
+			]
+		}
+	},
+	{
+		"institutionName": "Praxis Unico",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				0.151914,
+				52.235274
+			]
+		}
+	},
+	{
+		"institutionName": "Queen Margaret University",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-3.073058,
+				55.931308
+			]
+		}
+	},
+	{
+		"institutionName": "Open University",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-0.709747,
+				52.024914
+			]
+		}
+	},
+	{
+		"institutionName": "Queen Mary University of London",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-0.040532,
+				51.52341
+			]
+		}
+	},
+	{
+		"institutionName": "Queen's University Belfast",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-5.934759,
+				54.583863
+			]
+		}
+	},
+	{
+		"institutionName": "Oxford Brookes University",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-1.2232,
+				51.75438
+			]
+		}
+	},
+	{
+		"institutionName": "Research Complex at Harwell",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-1.313786,
+				51.57513
+			]
+		}
+	},
+	{
+		"institutionName": "Research Councils UK",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-0.9173373,
+				51.447417
+			]
+		}
+	},
+	{
+		"institutionName": "Robert Gordon University",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-2.144013,
+				57.118371
+			]
+		}
+	},
+	{
+		"institutionName": "Rose Bruford College of Theatre and Performance",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				0.106779,
+				51.439004
+			]
+		}
+	},
+	{
+		"institutionName": "Rothamsted Research",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-0.356322,
+				51.809568
+			]
+		}
+	},
+	{
+		"institutionName": "Royal Academy of Music",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-0.151753,
+				51.523615
+			]
+		}
+	},
+	{
+		"institutionName": "Royal College of Music",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-0.176913,
+				51.499279
+			]
+		}
+	},
+	{
+		"institutionName": "Royal Agricultural University",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-1.995003,
+				51.70949
+			]
+		}
+	},
+	{
+		"institutionName": "Royal College of Art",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-0.178853,
+				51.501558
+			]
+		}
+	},
+	{
+		"institutionName": "Royal Conservatoire of Scotland",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-4.257646,
+				55.866145
+			]
+		}
+	},
+	{
+		"institutionName": "Royal Holloway, University of London",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-0.567218,
+				51.425323
+			]
+		}
+	},
+	{
+		"institutionName": "Royal Veterinary College",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-0.133533,
+				51.536454
+			]
+		}
+	},
+	{
+		"institutionName": "Sanger Institute",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				0.186135,
+				52.078533
+			]
+		}
+	},
+	{
+		"institutionName": "Satellite Applications Catapult",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-1.307003,
+				51.577514
+			]
+		}
+	},
+	{
+		"institutionName": "Royal Central School of Speech and Drama",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-0.174204,
+				51.544334
+			]
+		}
+	},
+	{
+		"institutionName": "Science and Technology Facilities Council",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-1.785952,
+				51.566838
+			]
+		}
+	},
+	{
+		"institutionName": "SOAS",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-0.129259035852863,
+				51.5223502141441
+			]
+		}
+	},
+	{
+		"institutionName": "Scotland's Rural College",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-2.212481,
+				57.185072
+			]
+		}
+	},
+	{
+		"institutionName": "Southampton Solent University",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-1.400166,
+				50.907747
+			]
+		}
+	},
+	{
+		"institutionName": "Scottish Funding Council",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-3.221763,
+				55.945765
+			]
+		}
+	},
+	{
+		"institutionName": "Staffordshire University",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-2.182606,
+				53.01008
+			]
+		}
+	},
+	{
+		"institutionName": "St George's, University of London",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-0.17338,
+				51.427985
+			]
+		}
+	},
+	{
+		"institutionName": "Stranmillis University College",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-5.935252,
+				54.57329
+			]
+		}
+	},
+	{
+		"institutionName": "St Marys University College",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-5.961326,
+				54.592023
+			]
+		}
+	},
+	{
+		"institutionName": "Swansea University",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-3.98063,
+				51.609618
+			]
+		}
+	},
+	{
+		"institutionName": "Tech UK",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-0.105225,
+				51.514829
+			]
+		}
+	},
+	{
+		"institutionName": "Teesside University",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-1.234694,
+				54.572076
+			]
+		}
+	},
+	{
+		"institutionName": "The Genome Analysis Centre",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				1.222306,
+				52.621874
+			]
+		}
+	},
+	{
+		"institutionName": "The Pirbright Institute",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-0.635024,
+				51.279801
+			]
+		}
+	},
+	{
+		"institutionName": "The Roslin Institute",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-3.199696,
+				55.865408
+			]
+		}
+	},
+	{
+		"institutionName": "The University of Buckingham",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-0.991838,
+				51.996007
+			]
+		}
+	},
+	{
+		"institutionName": "The University of Edinburgh",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-3.187347,
+				55.947691
+			]
+		}
+	},
+	{
+		"institutionName": "The University of Manchester",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-2.233676,
+				53.466751
+			]
+		}
+	},
+	{
+		"institutionName": "Transport Systems Catapult",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-0.767817,
+				52.036468
+			]
+		}
+	},
+	{
+		"institutionName": "The University of Nottingham",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-1.183333,
+				52.951126
+			]
+		}
+	},
+	{
+		"institutionName": "Sheffield Hallam University",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-1.465255,
+				53.379194
+			]
+		}
+	},
+	{
+		"institutionName": "Trinity Laban Conservatoire of Music and Dance",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-0.007197,
+				51.483596
+			]
+		}
+	},
+	{
+		"institutionName": "University College London",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-0.133363,
+				51.525635
+			]
+		}
+	},
+	{
+		"institutionName": "University for the Creative Arts",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-0.804815,
+				51.216715
+			]
+		}
+	},
+	{
+		"institutionName": "University of Aberdeen",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-2.099122,
+				57.165019
+			]
+		}
+	},
+	{
+		"institutionName": "University of Bath",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-2.326378,
+				51.377743
+			]
+		}
+	},
+	{
+		"institutionName": "University of Bedfordshire",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-0.411407,
+				51.877862
+			]
+		}
+	},
+	{
+		"institutionName": "University of Birmingham",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-1.933663,
+				52.454008
+			]
+		}
+	},
+	{
+		"institutionName": "University of Bolton",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-2.436238,
+				53.573511
+			]
+		}
+	},
+	{
+		"institutionName": "University of Brighton",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-0.11917,
+				50.842454
+			]
+		}
+	},
+	{
+		"institutionName": "University of Bristol",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-2.60329,
+				51.459066
+			]
+		}
+	},
+	{
+		"institutionName": "University of Cambridge",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				0.121628,
+				52.199962
+			]
+		}
+	},
+	{
+		"institutionName": "University of Central Lancashire",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-2.707384,
+				53.761338
+			]
+		}
+	},
+	{
+		"institutionName": "University of Chester",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-2.898061,
+				53.198641
+			]
+		}
+	},
+	{
+		"institutionName": "University of Chichester",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-0.774428,
+				50.844277
+			]
+		}
+	},
+	{
+		"institutionName": "University of Cumbria",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-2.946841,
+				54.892306
+			]
+		}
+	},
+	{
+		"institutionName": "University of Derby",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-1.496681,
+				52.938527
+			]
+		}
+	},
+	{
+		"institutionName": "University of Dundee",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-2.978476,
+				56.457209
+			]
+		}
+	},
+	{
+		"institutionName": "University of East Anglia",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				1.241391,
+				52.62237
+			]
+		}
+	},
+	{
+		"institutionName": "University of East London",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				0.06477,
+				51.507395
+			]
+		}
+	},
+	{
+		"institutionName": "University of Exeter",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-3.533832,
+				50.735262
+			]
+		}
+	},
+	{
+		"institutionName": "University of Essex",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				0.945028,
+				51.876558
+			]
+		}
+	},
+	{
+		"institutionName": "University of Glasgow",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-4.28836,
+				55.871751
+			]
+		}
+	},
+	{
+		"institutionName": "University of Greenwich",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-0.003917,
+				51.484493
+			]
+		}
+	},
+	{
+		"institutionName": "University of Gloucestershire",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-2.088788,
+				51.887496
+			]
+		}
+	},
+	{
+		"institutionName": "University of Hertfordshire",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-0.242173,
+				51.752877
+			]
+		}
+	},
+	{
+		"institutionName": "University of Bradford",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-1.76213,
+				53.791701
+			]
+		}
+	},
+	{
+		"institutionName": "University of Huddersfield",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-1.777711,
+				53.643715
+			]
+		}
+	},
+	{
+		"institutionName": "University of Keele",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-2.274598,
+				53.003952
+			]
+		}
+	},
+	{
+		"institutionName": "University of Hull",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-0.367165,
+				53.76964
+			]
+		}
+	},
+	{
+		"institutionName": "University of Kent",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				1.070888,
+				51.298487
+			]
+		}
+	},
+	{
+		"institutionName": "University of Lancaster",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-2.787729,
+				54.010394
+			]
+		}
+	},
+	{
+		"institutionName": "University of Leeds",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-1.552792,
+				53.808478
+			]
+		}
+	},
+	{
+		"institutionName": "University of Leicester",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-1.124632,
+				52.621139
+			]
+		}
+	},
+	{
+		"institutionName": "University of London",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-0.127493,
+				51.521135
+			]
+		}
+	},
+	{
+		"institutionName": "University of Liverpool",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-2.96826,
+				53.408471
+			]
+		}
+	},
+	{
+		"institutionName": "University of London Institute in Paris",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				2.31498,
+				48.860078
+			]
+		}
+	},
+	{
+		"institutionName": "University of Northampton",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-0.883088,
+				52.271991
+			]
+		}
+	},
+	{
+		"institutionName": "University of Northumbria at Newcastle",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-1.607498,
+				54.976762
+			]
+		}
+	},
+	{
+		"institutionName": "University of Portsmouth",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-1.093584,
+				50.795277
+			]
+		}
+	},
+	{
+		"institutionName": "University of Oxford",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-1.254704,
+				51.756634
+			]
+		}
+	},
+	{
+		"institutionName": "University of Lincoln",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-0.549237,
+				53.228833
+			]
+		}
+	},
+	{
+		"institutionName": "University of Reading",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-0.945622,
+				51.457616
+			]
+		}
+	},
+	{
+		"institutionName": "University of Southampton",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-1.395685,
+				50.934189
+			]
+		}
+	},
+	{
+		"institutionName": "University of South Wales",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-3.325775,
+				51.588738
+			]
+		}
+	},
+	{
+		"institutionName": "University of Roehampton",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-0.243094,
+				51.456757
+			]
+		}
+	},
+	{
+		"institutionName": "University of Salford",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-2.270666,
+				53.483541
+			]
+		}
+	},
+	{
+		"institutionName": "University of Sheffield",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-1.48871,
+				53.381391
+			]
+		}
+	},
+	{
+		"institutionName": "University of St Andrews",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-2.793012,
+				56.341214
+			]
+		}
+	},
+	{
+		"institutionName": "University of Strathclyde",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-4.242564,
+				55.861041
+			]
+		}
+	},
+	{
+		"institutionName": "University of Sunderland",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-1.391347,
+				54.904494
+			]
+		}
+	},
+	{
+		"institutionName": "University of Stirling",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-3.926794,
+				56.149213
+			]
+		}
+	},
+	{
+		"institutionName": "University of Surrey",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-0.589514,
+				51.242722
+			]
+		}
+	},
+	{
+		"institutionName": "University of the Arts London",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-0.116428,
+				51.517837
+			]
+		}
+	},
+	{
+		"institutionName": "University of the Highlands and Islands",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-4.230797,
+				57.469692
+			]
+		}
+	},
+	{
+		"institutionName": "University of the West of Scotland",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-4.428495,
+				55.843674
+			]
+		}
+	},
+	{
+		"institutionName": "University of Sussex",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-0.087076,
+				50.86447
+			]
+		}
+	},
+	{
+		"institutionName": "University of Ulster",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-6.67247,
+				55.146794
+			]
+		}
+	},
+	{
+		"institutionName": "University College London",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-0.133363,
+				51.525635
+			]
+		}
+	},
+	{
+		"institutionName": "University of York",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-1.053545,
+				53.948419
+			]
+		}
+	},
+	{
+		"institutionName": "StaffOxfordUniversityVariousDepartments1",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-1.254704,
+				51.756634
+			]
+		}
+	},
+	{
+		"institutionName": "StaffCambridgeUniversityEngineering",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				0.121628,
+				52.199962
+			]
+		}
+	},
+	{
+		"institutionName": "StaffOxfordUniversityPhysics",
+		"location": {
+			"type": "Point",
+			"coordinates": [
+				-1.254704,
+				51.756634
+			]
+		}
+	}
+]

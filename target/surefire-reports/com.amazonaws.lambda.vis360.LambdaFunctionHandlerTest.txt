@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.amazonaws.lambda.vis360.LambdaFunctionHandlerTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 7, Time elapsed: 0.394 sec

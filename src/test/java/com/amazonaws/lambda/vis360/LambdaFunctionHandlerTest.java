@@ -1,101 +1,108 @@
 package com.amazonaws.lambda.vis360;
 
-import static org.mockito.Mockito.when;
+import static org.junit.Assert.assertEquals;
 
-import java.io.FileReader;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
 
-import org.json.simple.JSONArray;
-import org.json.simple.parser.JSONParser;
-import org.json.simple.parser.ParseException;
 import org.junit.Assert;
-import org.junit.Before;
+import org.junit.BeforeClass;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.mockito.ArgumentCaptor;
-import org.mockito.Captor;
-import org.mockito.Mock;
 import org.mockito.junit.MockitoJUnitRunner;
 
 import com.amazonaws.services.lambda.runtime.Context;
-import com.amazonaws.services.lambda.runtime.events.S3Event;
-import com.amazonaws.services.s3.AmazonS3;
-import com.amazonaws.services.s3.model.GetObjectRequest;
-import com.amazonaws.services.s3.model.ObjectMetadata;
-import com.amazonaws.services.s3.model.S3Object;
 
-import io.searchbox.core.Index;
+import io.searchbox.core.SearchResult;
+import uk.co.vis360.mongo.NewReaperData;
+import uk.co.vis360.util.ReadJSON;
+import uk.co.vis360.watson.JavaESClient;
+import uk.co.vis360.watson.LambdaFunctionHandler;
+import uk.co.vis360.watson.PublicationData;
 
 /**
  * A simple test harness for locally invoking your Lambda function handler.
  */
 @RunWith(MockitoJUnitRunner.class)
 public class LambdaFunctionHandlerTest {
+	
+	private static final JavaESClient CLIENT_LOCAL  = new JavaESClient("http://localhost:9200/");
+	private static Object input;
 
-    private final String CONTENT_TYPE = "image/jpeg";
-    private S3Event event;
-    private JavaESClient javaESClient = new JavaESClient("https://search-vm-search-service-pqzlp4xq23yqvr5yudnfis6f2u.eu-west-1.es.amazonaws.com");
-    
-    @Mock
-    private AmazonS3 s3Client;
-    @Mock
-    private S3Object s3Object;
+	@BeforeClass
+	public static void createInput() throws IOException {
+		// TODO: set up your sample input object here.
+		input = null;
+	}
 
-    @Captor
-    private ArgumentCaptor<GetObjectRequest> getObjectRequest;
+	private Context createContext() {
+		TestContext ctx = new TestContext();
 
-    @Before
-    public void setUp() throws IOException {
-        event = TestUtils.parse("/s3-event.put.json", S3Event.class);
+		// TODO: customize your context here if needed.
+		ctx.setFunctionName("LambdaFunctionHandler");
 
-        // TODO: customize your mock logic for s3 client
-        ObjectMetadata objectMetadata = new ObjectMetadata();
-        objectMetadata.setContentType(CONTENT_TYPE);
-        when(s3Object.getObjectMetadata()).thenReturn(objectMetadata);
-        when(s3Client.getObject(getObjectRequest.capture())).thenReturn(s3Object);
-    }
+		return ctx;
+	}
 
-    private Context createContext() {
-        TestContext ctx = new TestContext();
+	@Test
+	@Ignore
+	public void testLambdaFunctionHandler() {
+		LambdaFunctionHandler handler = new LambdaFunctionHandler();
+		Context ctx = createContext();
 
-        // TODO: customize your context here if needed.
-        ctx.setFunctionName("Your Function Name");
+		String output = handler.handleRequest(input, ctx);
 
-        return ctx;
-    }
+		// TODO: validate output here if needed.
+		Assert.assertEquals("Hello from Lambda!", output);
+	}
 
-    @Test
-    @Ignore
-    public void testLambdaFunctionHandler() {
-        LambdaFunctionHandler handler = new LambdaFunctionHandler(s3Client);
-        Context ctx = createContext();
+	@Test
+	@Ignore
+	public void updatePublication() {
+		TestContext ctx = new TestContext();
+		PublicationData sk = new PublicationData();
+		sk.updateKonferPublication();
+	}
 
-        String output = handler.handleRequest(event, ctx);
-
-        // TODO: validate output here if needed.
-        Assert.assertEquals(CONTENT_TYPE, output);
-    }
-    
-    @Test
-    @Ignore
-    public void doBulkUpdate() {
-    	JSONParser parser = new JSONParser();
-    	JSONArray array = new JSONArray();
-    	List<Index> indexList = new ArrayList<Index>();
-    	try {
-			array = (JSONArray) parser.parse(new FileReader("/home/kundan/test-search-data.json"));
-		} catch (IOException | ParseException e) {
+	@Test
+	@Ignore
+	public void updateWatsonPublication() {
+		TestContext ctx = new TestContext();
+		PublicationData sk = new PublicationData();
+		sk.getDataFromES();
+	}
+	
+	@Test
+	@Ignore
+	public void analyseData() {
+		Context ctx = createContext();
+		String pubAbstract = "Black is a Country\\nNext Section\\nAbstract\\nRacism transcends borders and so too must the fight against it, argues Kehinde Andrews. Too often, analyses of race are hemmed in by “methodological nationalism,” or the tendency to frame our thinking around the nation-state. Instead, Andrews says, the African diaspora should unite across oceans and boundaries to form a country based on freedom and equality for Black populations.\\nMarcus Garvey\\nMARION S. TRIKOSKO\\nBirmingham, England—Racism transcends the boundaries of the nation-state, and so the fight for freedom and equality must also be global.\\nToo often when we try to understand anti-Black racism, our analyses are limited to our own country’s borders. The late sociologist Herminio Martins dubbed this tendency to frame our thinking within the nation-state “methodological nationalism.” In thinking about racism, the nation-state is frequently considered a real, tangible unit of study for racial formation and inequalities.                   In reality, the nation-state is no more solid a concept than race; they’re social constructions rooted in myth and produced                   by powerful ideologies.\\nUndergirding Western capitalism is a global system of racism: The genocide of natives in the Americas, transatlantic enslavement                   of Africans, and colonial and neo-colonial domination were all transnational oppressions. Despite these international origins                   of systemic racism, civil rights analysis and politics remain inscribed within a country’s borders.";
+		PublicationData.analyseContent("Black is a Country", pubAbstract);
+		//ctx.getLogger().log(""+WatsonApiUtil.analyseContent(rawData,ctx));
+	}
+	
+	@Test
+	@Ignore
+	public void getData() {
+		try {
+			SearchResult result = JavaESClient.getJestClient().execute(
+					PublicationData.buildQuery("publication","konfer-pub"));
+			System.out.println(result.getJsonString());
+		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-    	/*for(Object obj:array) {
-    		 JSONObject jsonObject = (JSONObject) obj;
-    		 indexList.add(new Index.Builder(jsonObject.toJSONString()).build());
-    	}
-    	javaESClient.createIndex("movies");
-    	javaESClient.updateBulkData("movies",indexList);*/
-    }
+	}
+	@Test
+	@Ignore
+	public void readJsonFile() {
+		ReadJSON.readJSONFile("konfer-university.json");
+	}
+	
+	@Test
+	@Ignore
+	public void processNewReaperData() {
+		new NewReaperData().processData(0,0);
+		assertEquals(1,1);
+	}
 }

@@ -2,9 +2,17 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.amazonaws.lambda</groupId>
-  <artifactId>vis360</artifactId>
-  <version>1.0.0</version>
+  <artifactId>es-watson</artifactId>
+  <version>8.0.0</version>
   <build>
+    <resources>
+      <resource>
+        <directory>src/test/resources</directory>
+        <includes>
+          <include>konfer-university.json</include>
+        </includes>
+      </resource>
+    </resources>
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
@@ -27,6 +35,18 @@
             </goals>
           </execution>
         </executions>
+      </plugin>
+      <plugin>
+        <artifactId>maven-jar-plugin</artifactId>
+        <version>3.1.0</version>
+        <configuration>
+          <archive>
+            <manifest>
+              <addClasspath>true</addClasspath>
+              <mainClass>uk.co.vis360.watson.KonferMain</mainClass>
+            </manifest>
+          </archive>
+        </configuration>
       </plugin>
     </plugins>
   </build>

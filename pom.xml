@@ -3,8 +3,8 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.amazonaws.lambda</groupId>
-	<artifactId>vis360</artifactId>
-	<version>1.0.0</version>
+	<artifactId>es-watson</artifactId>
+	<version>8.0.0</version>
 	<packaging>jar</packaging>
 
 	<build>
@@ -33,7 +33,28 @@
 					</execution>
 				</executions>
 			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<version>3.1.0</version>
+				<configuration>
+					<archive>
+						<manifest>
+							<addClasspath>true</addClasspath>
+							<mainClass>uk.co.vis360.watson.KonferMain</mainClass>
+						</manifest>
+					</archive>
+				</configuration>
+			</plugin>
 		</plugins>
+		<resources>
+			<resource>
+				<directory>src/test/resources</directory>
+				<includes>
+					<include>konfer-university.json</include>
+				</includes>
+			</resource>
+		</resources>
 	</build>
 
 	<dependencyManagement>
@@ -60,11 +81,6 @@
 			<artifactId>mockito-core</artifactId>
 			<version>2.7.22</version>
 			<scope>test</scope>
-		</dependency>
-
-		<dependency>
-			<groupId>com.amazonaws</groupId>
-			<artifactId>aws-java-sdk-s3</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>com.amazonaws</groupId>
@@ -93,5 +109,24 @@
 			<artifactId>json-simple</artifactId>
 			<version>1.1.1</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.opencsv/opencsv -->
+		<dependency>
+			<groupId>com.opencsv</groupId>
+			<artifactId>opencsv</artifactId>
+			<version>3.3</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.ibm.watson.developer_cloud/natural-language-understanding -->
+		<dependency>
+			<groupId>com.ibm.watson.developer_cloud</groupId>
+			<artifactId>natural-language-understanding</artifactId>
+			<version>6.14.2</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.mongodb/mongo-java-driver -->
+		<dependency>
+			<groupId>org.mongodb</groupId>
+			<artifactId>mongo-java-driver</artifactId>
+			<version>3.8.0</version>
+		</dependency>
+
 	</dependencies>
 </project>
