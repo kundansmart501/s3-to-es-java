@@ -85,7 +85,7 @@ public class LambdaFunctionHandlerTest {
 	@Ignore
 	public void getData() {
 		try {
-			SearchResult result = JavaESClient.getJestClient().execute(
+			SearchResult result = CLIENT_LOCAL.getJestClient().execute(
 					PublicationData.buildQuery("publication","konfer-pub"));
 			System.out.println(result.getJsonString());
 		} catch (IOException e) {

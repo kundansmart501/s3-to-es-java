@@ -35,16 +35,11 @@ public class JavaESClient {
                 .build());
 	}
 
-	private static JestClientFactory getJestFactory() {
-		return factory;
-	}
-	
-	public static JestClient getJestClient() {
+	public JestClient getJestClient() {
 		if(jestClient!=null)
 			return jestClient;
-		jestClient = getJestFactory().getObject();
+		jestClient = factory.getObject();
 		return jestClient;
-		
 	}
 	
 	public void createIndex(String indexName,Context context) {

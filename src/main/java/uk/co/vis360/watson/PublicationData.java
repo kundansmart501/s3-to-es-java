@@ -148,7 +148,7 @@ public class PublicationData {
 
 	public void executeMultiSearchRequest() {
 		try {
-			MultiSearchResult result = JavaESClient.getJestClient().execute(buildMultiSearchQuery("publication-ml-test","konfer-pub"));
+			MultiSearchResult result = CLIENT_TEST.getJestClient().execute(buildMultiSearchQuery("publication-ml-test","konfer-pub"));
 			JsonObject resultObject = result.getJsonObject();
 			JsonArray responses = (JsonArray) resultObject.get("responses");
 			//log.info("Hits array "+responses.get(0));
@@ -205,7 +205,7 @@ public class PublicationData {
 	public void updateKonferPublication() {
 
 		//Fetch data from TEST Konfer
-		JavaESClient.getJestClient().executeAsync(PublicationData.buildQuery("ncub-dev","webPageContent"), new JestResultHandler<JestResult>() {
+		CLIENT_TEST.getJestClient().executeAsync(PublicationData.buildQuery("ncub-dev","webPageContent"), new JestResultHandler<JestResult>() {
 			@Override
 			public void completed(JestResult result) {
 				JsonObject resultObject = result.getJsonObject();
@@ -226,7 +226,7 @@ public class PublicationData {
 	}
 
 	public void getDataFromES() {
-		JavaESClient.getJestClient().executeAsync(PublicationData.buildQuery("ncub-dev","webPageContent"), new JestResultHandler<JestResult>() {
+		CLIENT_TEST.getJestClient().executeAsync(PublicationData.buildQuery("ncub-dev","webPageContent"), new JestResultHandler<JestResult>() {
 			@Override
 			public void completed(JestResult result) {
 				JsonObject resultObject = result.getJsonObject();
